@@ -90,6 +90,7 @@ node default {
 }
 
 
+# Install Atom
 include atom
 
 # install the linter package
@@ -98,3 +99,10 @@ atom::package { 'linter': }
 # install the monokai theme
 atom::theme { 'monokai': }
 
+# Install Chrome
+
+# from the stable channel
+include chrome
+
+# from the nightly channel
+include chrome::canary
