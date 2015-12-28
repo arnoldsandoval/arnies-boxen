@@ -106,9 +106,3 @@ include chrome
 
 # from the nightly channel
 include chrome::canary
-
-# App Store Installs
-include appstore
-appstore::app { 'Twitter':
-  source => 'twitter/id409789998', # required
-}
