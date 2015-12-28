@@ -88,3 +88,13 @@ node default {
     target => $boxen::config::repodir
   }
 }
+
+
+include atom
+
+# install the linter package
+atom::package { 'linter': }
+
+# install the monokai theme
+atom::theme { 'monokai': }
+
