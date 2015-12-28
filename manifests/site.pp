@@ -100,9 +100,30 @@ atom::package { 'linter': }
 atom::theme { 'monokai': }
 
 # Install Chrome
-
-# from the stable channel
 include chrome
-
-# from the nightly channel
 include chrome::canary
+
+# Install Caffeine
+include caffeine
+
+# Install Virtualbox
+include virtualbox
+
+# Install Vagrant
+class { 'vagrant': }
+
+
+# Enable tap-to-click
+include osx::global::tap_to_click
+
+# Show mounter volumes on desktop
+include osx::finder::show_mounted_servers_on_desktop
+
+# Enable Safari Developer Mode
+include osx::safari::enable_developer_mode
+
+# Make the bottom right corner show the desktop
+class { 'osx::dock::hot_corners':
+  top_right => "Start Screen Saver",
+  bottom_right => "Put Display to Sleep"
+}
