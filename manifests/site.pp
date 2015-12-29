@@ -89,12 +89,27 @@ node default {
   }
 }
 
+# ohmyzsh
+include ohmyzsh
+
+# Sketch
+include sketch
+
+# Python
+include python
 
 # Install Atom
 include atom
 
 # install the linter package
 atom::package { 'linter': }
+
+# install the linter package
+atom::package { 'set-syntax': }
+
+atom::package { 'auto-detect-indentation': }
+atom::package { 'atom-beautify': }
+atom::package { 'emmet': }
 
 # install the monokai theme
 atom::theme { 'monokai': }
@@ -107,11 +122,10 @@ include chrome::canary
 include caffeine
 
 # Install Virtualbox
-include virtualbox
+# include virtualbox
 
 # Install Vagrant
 class { 'vagrant': }
-
 
 # Enable tap-to-click
 include osx::global::tap_to_click
@@ -124,6 +138,6 @@ include osx::safari::enable_developer_mode
 
 # Make the bottom right corner show the desktop
 class { 'osx::dock::hot_corners':
-  top_right => "Start Screen Saver",
-  bottom_right => "Put Display to Sleep"
+  top_right => "Put Display to Sleep",
+  top_left => "Put Display to Sleep"
 }

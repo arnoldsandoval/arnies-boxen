@@ -61,8 +61,11 @@ github "atom",        "1.3.0"
 github "chrome",      "1.2.0"
 github "caffeine",    "1.0"
 github "osx",         "2.8.0"
-github "virtualbox",   "1.0.13"
-github "vagrant",      "3.3.4"
+github "virtualbox",  "1.0.13"
+github "vagrant",     "3.3.4"
+github "python",      "2.0.1"
+github "ohmyzsh",     "1.0.0", :repo => "erivello/puppet-ohmyzsh"
+github "sketch",      "0.0.2", :repo => "Shyp/puppet-sketch"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
