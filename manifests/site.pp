@@ -95,6 +95,9 @@ include ohmyzsh
 # Sketch
 include sketch
 
+# Adobe Creative Cloud
+include adobe_creative_cloud
+
 # Python
 include python
 
