@@ -63,10 +63,12 @@ github "caffeine",              "1.0"
 github "osx",                   "2.8.0"
 github "virtualbox",            "1.0.13"
 github "vagrant",               "3.3.4"
-github "python",                "2.0.1"
+github "mongodb",               "1.5.0"
+github "python",                "3.0.2", :repo => "mloberg/puppet-python"
 github "ohmyzsh",               "1.0.0", :repo => "erivello/puppet-ohmyzsh"
 github "sketch",                "0.0.2", :repo => "Shyp/puppet-sketch"
 github "adobe_creative_cloud",  "1.0.0", :repo => "ngs/puppet-adobe_creative_cloud"
+github "plex",                  "1.0.0", :repo => "arnoldsandoval/puppet-plex"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
