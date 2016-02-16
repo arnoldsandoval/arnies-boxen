@@ -191,5 +191,3 @@ class { 'osx::dock::hot_corners':
   top_left => "Put Display to Sleep"
 }
 
-# Plex
-include plex
