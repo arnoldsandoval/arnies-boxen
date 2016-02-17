@@ -48,7 +48,7 @@ github "homebrew",              "1.13.0"
 github "hub",                   "1.4.1"
 github "inifile",               "1.4.1", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",                 "1.6.0"
-github "nodejs",                "5.0.0"
+github "nodejs",                "5.0.5"
 github "openssl",               "1.0.0"
 github "phantomjs",             "3.0.0"
 github "pkgconfig",             "1.0.0"
@@ -68,7 +68,6 @@ github "python",                "3.0.2", :repo => "mloberg/puppet-python"
 github "ohmyzsh",               "1.0.0", :repo => "erivello/puppet-ohmyzsh"
 github "sketch",                "0.0.2", :repo => "Shyp/puppet-sketch"
 github "adobe_creative_cloud",  "1.0.0", :repo => "ngs/puppet-adobe_creative_cloud"
-github "plex",                  "1.0.0", :repo => "arnoldsandoval/puppet-plex"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
